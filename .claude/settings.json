@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/jev_first.py\"",
+            "timeout": 15,
+            "statusMessage": "Asking Jev first..."
+          }
+        ]
+      }
+    ]
+  }
+}
